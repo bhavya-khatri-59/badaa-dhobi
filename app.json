@@ -1,29 +1,27 @@
 {
   "expo": {
-    "name": "badaa-dhobi-app",
-    "slug": "badaa-dhobi-app",
+    "name": "Badaa Dhobi",
+    "slug": "badaa-dhobi",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/badaDhobi.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/badaDhobi.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+        "foregroundImage": "./assets/badaDhobi.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bhavyakhatri59.badaadhobi"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "85a7dc04-ced2-4638-ad0b-1d8e5cb28524"
+      }
     }
   }
 }
