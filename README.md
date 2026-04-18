@@ -1,7 +1,5 @@
 # 🧺 Badaa Dhobi - IoT Laundry Counter Dashboard
 
-This repository contains the packaged React Native mobile dashboard for **Badaa Dhobi**, a real-time IoT box-counting system designed to track laundry drops. 
-
 ## 📖 Project Overview
 
 The Badaa Dhobi system bridges edge-level hardware detection with a mobile frontend. It eliminates the need for complex machine learning models at the edge by utilizing a lightweight, image-processing approach on a low-cost microcontroller. Whenever a piece of clothing is dropped into the laundry box, the hardware detects the event, updates the cloud, and the mobile application (distributed as a standalone APK) instantly reflects the new count.
